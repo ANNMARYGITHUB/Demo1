@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://i.imgur.com/2dQFsCl.jpg') no-repeat center center/cover; /* Replace with appropriate background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signin-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 20px 30px;
+    border-radius: 5px;
+    width: 300px;
+    color: #fff;
+    text-align: center;
+}
+
+.signin-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.signin-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.signin-container button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signin-container button:hover {
+    background-color: #f40612;
+}
+
+.signin-container .secondary-options {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signin-container .secondary-options a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.signin-container .secondary-options a:hover {
+    text-decoration: underline;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
